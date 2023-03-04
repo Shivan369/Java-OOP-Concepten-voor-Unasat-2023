@@ -1,0 +1,17 @@
+In Java, an interface is a collection of abstract methods and constant variables.
+It is a way of specifying a set of methods that a class must implement in order to be considered an implementation of that interface.
+
+An interface provides a contract that a class must follow by defining a set of method signatures,
+but it does not provide an implementation for those methods. Instead, a class that implements an interface must provide
+its own implementation for each of the methods specified in the interface.
+
+Interfaces can also contain constant variables, which are implicitly public, static, and final.
+These variables can be used by any class that implements the interface.
+
+One of the main benefits of using interfaces in Java is that they allow for polymorphism,
+which means that an object of any class that implements an interface can be used wherever that interface is expected.
+This makes it easy to write code that can work with a variety of different objects without knowing their specific implementation details.
+
+OPletten!!! -> To define an interface in Java, you use the "interface" keyword,
+
+Opletten!!! -> And to implement an interface, you use the "implements" keyword in your class declaration,

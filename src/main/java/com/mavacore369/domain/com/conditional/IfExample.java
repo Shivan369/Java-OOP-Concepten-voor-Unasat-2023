@@ -1,0 +1,31 @@
+package com.mavacore369.domain.com.conditional;
+
+/*
+ * Shivan MavaCore369;
+ */
+
+public class IfExample {
+
+	public static void main(String[] args) {
+		int x = 15;
+		int y = 30;
+		
+		if (x < y) {
+			System.out.println("X is less then Y");
+		}
+		x = x * 2;
+		if (x == y) {
+			System.out.println("X is equal Y");
+		}
+		x = x * 2;
+		if (x > y) {
+			System.out.println("X is greater then Y");
+		}
+		if (x != y) {
+			System.out.println("Not Equal");
+		}
+		
+
+	}
+
+}

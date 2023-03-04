@@ -1,0 +1,26 @@
+package com.mavacore369.domain.com.conditional.exercise;
+
+/*
+ * Shivan MavaCore369;
+ *
+ * Cast Expression because the value is a double so you are casting double to int..!!!
+ */
+
+public class FixError {
+
+	public static void main(String[] args) {
+		int i = 0;
+		int j= i + 1;
+		int k= (int) 100.0;
+		
+		int x,y,z;
+		x=1;
+		y=x+1;
+		z=y;
+		System.out.println(z);
+		
+		System.out.println("J is= "+j+"\n"+"K is= "+k);
+
+	}
+
+}
